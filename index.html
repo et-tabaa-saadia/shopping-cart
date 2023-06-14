@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styla.css">
+    <title>Document</title>
+</head>
+<body>
+    <section >
+        <table class="table">
+            <tr>
+                
+                <td></i></td>
+                <td></i></td>
+                <td></td>
+                <td>product</td>
+                <td> Qantiter</td>
+                <td>unit price </td>
+                <td>price</td>
+                
+            </tr>
+            <tr>
+                
+                <td><i class="fa-regular fa-heart"></i></td>
+                <td><i class="fa-regular fa-trash-can"></i></td>
+                <td><img src="images/image1.webp" alt=""></td>
+                <td> Grey dress party</td>
+                <td ><input onclick="getTotal() ,prix()"  id="num1"  type="number" placeholder="0" ></td>
+                <td >225 $  </td>
+                <td id="total"></td>
+
+            </tr>
+            <tr>
+                
+                <td><i class="fa-regular fa-heart"></i></td>
+                <td><i class="fa-regular fa-trash-can"></i></i></td>
+                <td><img src="images/image2.webp" alt=""></td>
+                <td> Grey dress party</td>
+                <td> <input  onclick="getTotal2(),prix()" id="num2" type="number" placeholder="0"></td>
+                <td>189 $ </td>
+                <td id="total2"></td>
+
+            </tr>
+            <tr>
+                
+                <td><i class="fa-regular fa-heart"></i></td>
+                <td><i class="fa-regular fa-trash-can"></i></i></td>
+                <td><img src="images/image3.jpg" alt=""></td>
+                <td> Grey dress party</td>
+                <td> <input   onclick="getTotal3(), prix()" id="num3" type="number" placeholder="0"></td>
+                <td>129 $ </td>
+                <td id="total3"></td>
+            </tr>
+            <tr>
+                <td  colspan="7"  class="Prix">total Price : <span    id="prixtotal" style="text-align:center;"></span></td>
+            </tr>
+        </table>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
